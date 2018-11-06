@@ -26,6 +26,16 @@ rgba(142, 190, 152, 0.7) */
     border: solid 1px #707070; 
 }
 
+.navbar-brand{
+    font-family: 'MedievalSharp', sans-serif;
+    color: #D73351 !important;
+    text-shadow: 1px 1px 3px black;
+    font-size: 56px;
+}
+.navbar-brand:hover{
+    cursor: default;
+}
+
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
