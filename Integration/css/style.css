@@ -1,0 +1,17 @@
+
+.container {
+	background-image: url(img/vikings-pascontentsverts.jpg);
+	background: cover;
+	text-align: center;
+}
+
+h1 {
+	font-family: BalooBhaijaan-Regular ;
+	font-weight: 300px;
+	color :;
+}
+
+.container img {
+	height: 20%;
+	width : 20%;
+}
