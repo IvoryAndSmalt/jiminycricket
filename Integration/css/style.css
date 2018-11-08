@@ -143,8 +143,58 @@ rgba(142, 190, 152, 0.7) */
 
 /****************FORMULAIRE DE CONTACT*************/
 .desquestions{
-    height: 150px;
+    position: relative;
+    height: 126px;
     background: #1497CC;
     width: 90%;
     border: solid 1px black;
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+.desquestions *{
+    margin-bottom: 0;
+}
+
+form{
+    height: 100%;
+}
+
+.desquestions h3{
+    font-size: 15px;
+    width: 40%;
+    margin: 0 auto 10px auto;
+}
+
+.emailetbouton{
+    height: 90%;
+    position: relative;
+}
+
+#formemail{
+    width: 91px;
+    height: 14px;
+}
+
+#formenvoyer{
+    border: solid 1px #707070;
+    border-radius: 14px;
+    color: white;
+    background: #0F749D;
+    padding: 0 15px;
+}
+
+.message{
+    height: 90%;
+    position: relative;
+}
+
+#votremessage{
+    width: 108px;
+    height: 43px;
+}
+
+.oui{
+    justify-content: space-between;
 }
