@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>La barre bichette : explication</title>
+    <title>La barre bichette</title>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Comfortaa|MedievalSharp" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -16,104 +16,135 @@
 <body>
 
     <!-- HEADER, FOOTER et DES QUESTIOSN A inclue en PHP ???? -->
-<!-- 
-    header
-        navbar
-            brandname
-            brandlogo
-            menu burger
-        navbar
-    header
 
-    div . container le h3.
-        h3 
-    /div
 
-    div card
-        h2 goût tartare
-        image viande crue 
-        form 
-            label - input type number
-            label - input type number
-            input submit 
-        /form 
-    /div
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand mx-auto" href="#">Viking
+            <img src="images/logo Vikingiron.png" class="align-top" id="logoviking" alt="logo vikingiron">
+        </a>
+        <button class="navbar-toggler rounded-circle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    div card
-        h2 goût steak
-        image viande cuite 
-        form 
-            label - input type number
-            label - input type number
-            input submit 
-        /form
-    /div
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+    </nav>
 
-    div . container 
-        h2 
-    /div
+    <!-- TEXTE d'INTRODUCTION -->
+    <div class="container introcontainer">
+        <p>
+            Saveurs fraîches et printanières ou bonne<br> vieille barbaque, chez Viking, il y en a pour tous les goûts!<br>
+            <br>
+            Vous aimez le goût acidulé des fruits rouges et l'effet rassasiant des céréales? Adoptez nos barres végétariennes.<br>
+            <br>
+            Vous être un vrai viandard? Les barres tartare<br> et steak sont faites pour vous!
+        </p>
+    </div>
 
-    div card
-        h2 goût céréales
-        image blé
-        form 
-            label - input type number
-            label - input type number
-            input submit 
-        /form
-    /div
+    <!-- SECTION GOUTER -->
+    <div class="container" id="divgouter">
+        <div class="row gouterrow1">
+            <div class="col-4">
+                <img src="images/lesbarres.png" alt="" id="lesbarres">
+            </div>
+            <div class="col-8">
+                <h3 id="avecettebarre">
+                    Avec cette barre, vous oserez <br>défier Ragnar...
+                </h3>
+            </div>
+        </div>
 
-    div card
-        h2 goût fruits
-        image fruits
-        form 
-            label - input type number
-            label - input type number
-            input submit 
-        /form
-    /div
+        <div class="gouter">
+            <a href="" id="boutongouter" class="align-text-right">Goûter<div class="arrow-right"></div></a>
 
-    p
-    div . container
-        form
-            div box
-                label  - input desactivé * 4
-            /div
-            label - input desactivé type number (total)
-            input submit je passe ma commande
-        /form
-    /div   
+        </div>
+    </div>
 
-    div . container pub
-        image
-        p 
-    /div
+    <div class="container">
+        <div class="jedeviens">
+            <a href="" class="align-text-right jedeviensa">Je deviens fort!<div class="arrow-right-big"></div></a>
+        </div>
+    </div>
 
-    div . container moyens de paiement
-        p 
-        images en flex
-    /div
+    <div class="container desquestions">
+        <form action="" method="post">
+            <h3 id="desquestionsh3">
+                Des questions ? Contactez-nous !
+            </h3>
+            <div class="row oui">
+                <div class="emailetbouton col-5">
+                    <label for="formemail">Votre E-mail :</label>
+                    <input type="email" id="formemail">
+                    <label for="formenvoyer"></label>
+                    <input type="submit" value="Envoyer" id="formenvoyer">
+                </div>
+                <div class="message col-6">
+                    <label for="votremessage">Votre message :</label>
+                    <input type="text" id="votremessage">
+                </div>
+            </div>
 
-    formulaire des questions
+        </form>
+    </div>
 
-    footer . container
-        div . row
-            a propos, nos produits
-        /div
-        div . row 
-            les listes
-        /div
-
-        ul
-            li les icones
-        /ul 
-    
-        ul contact... -->
+    <footer id="footer">
+        <div class="container footercontainer">
+            <div class="row footerrow">
+                <div class="col-5">
+                    <h3>
+                        a propos
+                    </h3>
+                    <ul>
+                        <li>Nous rejoindre</li>
+                        <li>Points de vente</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="col-5">
+                    <h3>
+                        nos produits
+                    </h3>
+                    <ul>
+                        <li>Barre viande</li>
+                        <li>Barre céréales</li>
+                        <li>Produits à venir</li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <img src="facebook.svg" alt="logo facebook">
+                    <img src="instagram.svp" alt="logo instagram">
+                    <img src="twitter.svg" alt="logo twitter">
+                </div>
+            </div>
+            <div class="listeliens">
+                <ul>
+                    <li>contact</li>
+                    <li>|</li>
+                    <li>conditions générales de vente</li>
+                    <li>|</li>
+                    <li>mentions générales</li>
+                    <li>|</li>
+                    <li>à propos</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
 </html>

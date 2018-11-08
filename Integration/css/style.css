@@ -244,3 +244,14 @@ form{
     display: flex;
     justify-content: space-around;
 }
+
+/******************PAGE 2 TEXTE INTO********/
+.introcontainer{
+    width: 85%;
+    font-size: 13px;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    line-height: 1.8em;
+    color:#707070;
+    margin-top: 30px;
+    border: solid 1px black;
+}
