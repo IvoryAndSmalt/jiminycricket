@@ -42,7 +42,8 @@ rgba(142, 190, 152, 0.7) */
 #logoviking{
     height: 62px;
     width: 68px;
-    margin-left: -30px;
+    margin-left: -25px;
+    margin-top: 5px;
 }
 
 .navbar-brand:hover{
@@ -54,14 +55,58 @@ rgba(142, 190, 152, 0.7) */
 }
 
 
-/****************************GOUTER****************/
+/****************************GOUTER*********************/
 #divgouter{
     margin-top: 200px;
     height: 158px;
     background: rgba(142, 190, 152, 0.27);
+    align-content: center;
+    padding: 15px 0;
+}
+
+.gouterrow1{
+    margin: 0 -2% 0 5%;
 }
 
 #lesbarres{
-    height: 120px;
-    width: 136px;
+    height: 109px;
+    width: 128px;
+    margin-right: 0;
 }
+
+#avecettebarre{
+    font-family: 'Comfortaa', sans-serif;
+    color: #D73351;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.gouter{
+    padding-bottom: 50px;
+    position: relative;
+}
+
+#boutongouter{
+    position: absolute;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 12px;
+    color: white;
+    border: solid 1px #707070;
+    border-radius: 25% 0% 0% 25%;
+    padding: 3px 12px;
+    background: #0F749D;
+    right: 8.5%;
+    top: -20%;
+}
+
+.arrow-right {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #758173;
+    right: -17%;
+    bottom: -5%;
+  }
