@@ -157,6 +157,10 @@ rgba(142, 190, 152, 0.7) */
     margin-bottom: 0;
 }
 
+.desquestions .row{
+    justify-content: space-between;
+}
+
 form{
     height: 100%;
 }
@@ -193,8 +197,4 @@ form{
 #votremessage{
     width: 108px;
     height: 43px;
-}
-
-.oui{
-    justify-content: space-between;
 }
