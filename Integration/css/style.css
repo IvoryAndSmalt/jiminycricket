@@ -20,6 +20,10 @@ rgba(142, 190, 152, 0.7) */
 /* fond du formulaire 
 #1497CC */
 
+a:hover{
+    text-decoration: none;
+}
+
 /***********************NAVBAR********************/
 .navbar{
     background: rgba(142, 190, 152, 0.7);
@@ -197,4 +201,46 @@ form{
 #votremessage{
     width: 108px;
     height: 43px;
+}
+
+/******************FOOTER******************/
+.footercontainer{
+    background: black;
+    width: 100%;
+    height: 155px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+.footerrow{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#footer ul{
+    padding-left: 0;
+}
+
+#footer li{
+    list-style: none;
+}
+
+#footer h3{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.listeliens{
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #B2B2B2;
+}
+
+.listeliens ul{
+    display: flex;
+    justify-content: space-around;
 }
