@@ -25,7 +25,12 @@ rgba(142, 190, 152, 0.7) */
     background: rgba(142, 190, 152, 0.7);
     border: solid 1px #707070;
     height: 87px;
+    padding: 0 8%;
 }
+
+/* .navbarcontent{
+    margin-bottom: 30px;
+} */
 
 .navbar-brand{
     font-family: 'MedievalSharp', sans-serif;
@@ -34,10 +39,29 @@ rgba(142, 190, 152, 0.7) */
     font-size: 56px;
 }
 
+#logoviking{
+    height: 62px;
+    width: 68px;
+    margin-left: -30px;
+}
+
 .navbar-brand:hover{
     cursor: default;
 }
 
 .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/****************************GOUTER****************/
+#divgouter{
+    margin-top: 200px;
+    height: 158px;
+    background: rgba(142, 190, 152, 0.27);
+}
+
+#lesbarres{
+    height: 120px;
+    width: 136px;
 }
