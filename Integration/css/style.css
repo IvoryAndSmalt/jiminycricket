@@ -110,3 +110,41 @@ rgba(142, 190, 152, 0.7) */
     right: -17%;
     bottom: -5%;
   }
+
+/******************JE DEVIENS FORT****************/
+.jedeviens{
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.jedeviensa{
+    position: absolute;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 18px;
+    color: white;
+    border: solid 1px #707070;
+    border-radius: 25% 0% 0% 25%;
+    padding: 7px 12px;
+    background: #0F749D;
+    right: 8.5%;
+    top: -20%;
+}
+
+.arrow-right-big {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 18px solid #758173;
+    right: -13.1%;
+    bottom: -5%;
+}
+
+/****************FORMULAIRE DE CONTACT*************/
+.desquestions{
+    height: 126px;
+    background: #1497CC;
+    width: 90%;
+    border: solid 1px black;
+}
