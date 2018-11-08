@@ -58,10 +58,34 @@ a:hover{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+/****************************PAS CONTENTS****************/
+
+.pascontents {
+	height: 232px;
+	background: url("../images/vikings-pascontentsverts.jpg");
+	background-size: 100%;
+    text-align: center;
+}
+
+.titre {
+	font-family: 'MedievalSharp', sans-serif;
+    color: #D73351 !important;
+    text-shadow: 1px 1px 3px black;
+    font-size: 70px;
+    padding-top: 130px;
+
+}
+
+.container h1 img {
+	margin-top: 10px;
+	height: 25%;
+	width : 25%;
+	margin-left: -30px;
+}
+
 
 /****************************GOUTER*********************/
 #divgouter{
-    margin-top: 200px;
     height: 158px;
     background: rgba(142, 190, 152, 0.27);
     align-content: center;
@@ -115,35 +139,129 @@ a:hover{
     bottom: -5%;
   }
 
-/******************JE DEVIENS FORT****************/
-.jedeviens{
-    padding-bottom: 50px;
-    position: relative;
+  /****************************TEXTE VIANDE****************/
+
+#texteviande {
+	height: 197px;
+	padding: 5px 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+#texteviande p {
+	font-family: 'Comfortaa', sans-serif; 
+	font-size: 14px;
+	text-align: center;
+	line-height: 16px;
+}
+
+/****************************TEXTE PROMO VIANDE****************/
+
+#promoviande {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 362px;
+	background: rgba(142, 190, 152, 0.27);
+}
+
+#promoviande img {
+	margin: auto;
+
+}
+
+.textepromo {
+	font-family: 'Baloo Bhaijaan', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	color: #707070;
+	padding: 10px 70px 0px 70px;
+	margin-bottom: 0;
+}
+
+#lesbarresviande {
+	height: 65%;
+	width: 65%;	
+	margin-bottom: 10px;
+}
+
+
+.jedeviens {
+	padding-top: 44px;
+}
+
+.lasouslitude {
+	margin-top: 20px;
 }
 
 .jedeviensa{
-    position: absolute;
-    font-family: 'Baloo Bhaijaan', sans-serif;
-    font-size: 18px;
-    color: white;
-    border: solid 1px #707070;
-    border-radius: 25% 0% 0% 25%;
-    padding: 7px 12px;
-    background: #0F749D;
-    right: 8.5%;
-    top: -20%;
+position: relative;
+font-family: 'Baloo Bhaijaan', sans-serif;
+font-size: 18px;
+color: white;
+border: solid 1px #707070;
+border-radius: 25% 0% 0% 25%;
+padding: 7px 12px;
+background: #0F749D;
+right: 0%;
+top:-10%;
 }
 
 .arrow-right-big {
-    position: absolute;
-    width: 0; 
-    height: 0; 
-    border-top: 22px solid transparent;
-    border-bottom: 22px solid transparent;
-    border-left: 18px solid #758173;
-    right: -13.1%;
-    bottom: -5%;
+position: absolute;
+width: 0;
+height: 0;
+border-top: 22px solid transparent;
+border-bottom: 22px solid transparent;
+border-left: 18px solid #758173;
+right: -13.1%;
+bottom: -5%;
 }
+
+
+
+/****************************TEXTE PROMO vegan****************/
+
+#promovegan {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 382px;
+}
+
+#lesbarresvegan {
+	height: 65%;
+	width: 65%;	
+	margin-bottom: 10px;
+}
+
+#promovegan img {
+	margin: auto;
+}
+
+/**************************** PORTRAIT ****************/
+
+#portrait {
+	height: 319px;
+	background: rgba(142, 190, 152, 0.7);
+	
+}
+
+#texteportrait {
+	width: 50%;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 25px; 
+	margin-left: 0%;
+	margin-top: 40px;
+}
+
+#portraitviking {
+	margin-left: 10%;
+	margin-top: 65px;
+	height: 200px;
+}
+
 
 /****************FORMULAIRE DE CONTACT*************/
 .desquestions{
