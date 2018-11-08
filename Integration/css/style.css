@@ -363,7 +363,7 @@ form{
     justify-content: space-around;
 }
 
-/******************PAGE 2 TEXTE INTO********/
+/******************PAGE 2 TEXTE INTO*************/
 .introcontainer{
     width: 85%;
     font-size: 13px;
@@ -372,4 +372,56 @@ form{
     color:#707070;
     margin-top: 30px;
     border: solid 1px black;
+}
+
+/******************FLEUR DES CHAMPS*************/
+.fleurdeschamps{
+    color: #1F85AF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/******************PANIER*************/
+.votrepanier{
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 15px;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.paniercontient{
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+
+.lepanier{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(142, 190, 152, 0.4);
+    border: solid 3px rgba(0,0,0, 0.4);
+}
+
+.lepanier p{
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.prix{
+   padding-left: 50px;
+   text-align: right;
+}
+
+.prix p{
+    width: 120%;
+    margin-bottom: 0;
+    margin-top: 1px;
+    background: white;
+    border: solid 2px rgba(87, 85, 85, 0.4);
 }
