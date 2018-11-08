@@ -43,20 +43,148 @@ rgba(142, 190, 152, 0.7) */
 
 }
 
-.container {
+/****************************PAS CONTENTS****************/
 
-	background-image: url("img/vikings-pascontentsverts.jpg");
-	background: cover;
+.pascontents {
+	height: 232px;
+	background-image: url("../images/vikings-pascontentsverts.jpg");
+	background: contain;
+	background-size: 100%;
 	text-align: center;
 }
 
-h1 {
+.titre {
 	font-family: 'MedievalSharp', sans-serif;
-	font-weight: 300px;
-	color :;
+    color: #D73351 !important;
+    text-shadow: 1px 1px 3px black;
+    font-size: 70px;
+    padding-top: 130px;
+
 }
 
-.container img {
-	height: 20%;
-	width : 20%;
+.container h1 img {
+	margin-top: 10px;
+	height: 25%;
+	width : 25%;
+	margin-left: -30px;
+}
+
+
+/****************************GOUTER****************/
+#divgouter{
+    
+    height: 158px;
+    background: rgba(142, 190, 152, 0.27);
+}
+
+#lesbarres{
+    height: 120px;
+    width: 136px;
+}
+
+/****************************TEXTE VIANDE****************/
+
+#texteviande {
+	height: 197px;
+	padding: 5px 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+#texteviande p {
+	font-family: 'Comfortaa', sans-serif; 
+	font-size: 14px;
+	text-align: center;
+	line-height: 16px;
+}
+
+/****************************TEXTE PROMO VIANDE****************/
+
+#promoviande {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 362px;
+	background: rgba(142, 190, 152, 0.27);
+}
+
+#promoviande img {
+	margin: auto;
+
+}
+
+.textepromo {
+	font-family: 'Baloo Bhaijaan', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	color: #707070;
+	padding: 10px 70px 0px 70px;
+	margin-bottom: 0;
+}
+
+#lesbarresviande {
+	height: 65%;
+	width: 65%;	
+	margin-bottom: 10px;
+}
+
+.lasouslitude {
+	position:relative;
+}
+
+.jedeviens {
+padding-bottom: 20px;
+position: absolute;
+}
+
+.ab {
+	position: absolute;
+	right: 10%;
+	top: 0%;
+}
+
+.jedeviensa{
+position: absolute;
+font-family: 'Baloo Bhaijaan', sans-serif;
+font-size: 18px;
+color: white;
+border: solid 1px #707070;
+border-radius: 25% 0% 0% 25%;
+padding: 7px 12px;
+background: #0F749D;
+right: 0%;
+top:-10%;
+}
+
+.arrow-right-big {
+position: absolute;
+width: 0;
+height: 0;
+border-top: 22px solid transparent;
+border-bottom: 22px solid transparent;
+border-left: 18px solid #758173;
+right: -13.1%;
+bottom: -5%;
+}
+
+
+
+/****************************TEXTE PROMO VIANDE****************/
+
+#promovegan {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 362px;
+}
+
+#lesbarresvegan {
+	height: 65%;
+	width: 65%;	
+	margin-bottom: 10px;
+}
+
+#promovegan img {
+	margin: auto;
 }
