@@ -392,6 +392,7 @@ form{
     font-size: 15px;
     width: 90%;
     justify-content: space-around;
+    position: relative;
 }
 
 .paniercontient{
@@ -425,3 +426,4 @@ form{
     background: white;
     border: solid 2px rgba(87, 85, 85, 0.4);
 }
+
