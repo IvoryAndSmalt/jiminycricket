@@ -275,7 +275,7 @@ bottom: -5%;
     font-family: 'Baloo Bhaijaan', sans-serif;
 }
 
-.desquestions *{
+.desquestions * {
     margin-bottom: 0;
 }
 
@@ -427,3 +427,66 @@ form{
     border: solid 2px rgba(87, 85, 85, 0.4);
 }
 
+.resultat{
+    position: absolute;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    align-items: center;
+}
+
+.prixtotal{
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 3px;
+    padding: 3px 15px 3px 3px;
+    border: 3px solid rgba(0, 0, 0, 0.65);
+}
+
+.total{
+    margin-right: 5px;
+}
+
+/*******************PAYER*********************/
+.passercommande{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+#payer{
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 18px;
+    color: white;
+    border: solid 2px #E4E4E4;
+    border-radius: 13px;
+    padding: 7px 12px;
+    background:#0F749D;
+}
+
+#osez{
+    font-family: 'Comfortaa', sans-serif;
+    color: #D73351;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.Lagertha{
+    margin-top: 20px;
+    height: auto;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.mdpaiement{
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 12px;
+}
+
+.imagepaiement{
+    width: 60%;
+    height: auto;
+}
