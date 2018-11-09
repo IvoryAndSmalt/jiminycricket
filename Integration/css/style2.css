@@ -24,8 +24,14 @@ rgba(142, 190, 152, 0.7) */
 /***********************NAVBAR********************/
 .navbar{
     background: rgba(142, 190, 152, 0.7);
-    border: solid 1px #707070; 
+    border: solid 1px #707070;
+    height: 87px;
+    padding: 0 8%;
 }
+
+/* .navbarcontent{
+    margin-bottom: 30px;
+} */
 
 .navbar-brand{
     font-family: 'MedievalSharp', sans-serif;
@@ -34,13 +40,19 @@ rgba(142, 190, 152, 0.7) */
     font-size: 56px;
 }
 
+#logoviking{
+    height: 62px;
+    width: 68px;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
 .navbar-brand:hover{
     cursor: default;
 }
 
 .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
-
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /****************************PAS CONTENTS****************/
@@ -203,4 +215,287 @@ bottom: -5%;
 	margin-left: 10%;
 	margin-top: 65px;
 	height: 200px;
+}/****************FORMULAIRE DE CONTACT*************/
+.desquestions{
+    position: relative;
+    height: 126px;
+    background: #1497CC;
+    width: 90%;
+    border: solid 1px black;
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+.desquestions *{
+    margin-bottom: 0;
+}
+
+.desquestions .row{
+    justify-content: space-between;
+}
+
+form{
+    height: 100%;
+}
+
+.desquestions h3{
+    font-size: 15px;
+    width: 40%;
+    margin: 0 auto 10px auto;
+}
+
+.emailetbouton{
+    height: 90%;
+    position: relative;
+}
+
+#formemail{
+    width: 91px;
+    height: 14px;
+}
+
+#formenvoyer{
+    border: solid 1px #707070;
+    border-radius: 14px;
+    color: white;
+    background: #0F749D;
+    padding: 0 15px;
+}
+
+.message{
+    height: 90%;
+    position: relative;
+}
+
+#votremessage{
+    width: 108px;
+    height: 43px;
+}
+
+/******************FOOTER******************/
+.footercontainer{
+    background: black;
+    width: 100%;
+    height: 155px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+.footerrow{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#footer ul{
+    padding-left: 0;
+}
+
+#footer li{
+    list-style: none;
+}
+
+#footer h3{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.listeliens{
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #B2B2B2;
+}
+
+.listeliens ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+/****************FORMULAIRE DE CONTACT*************/
+.desquestions{
+    position: relative;
+    height: 126px;
+    background: #1497CC;
+    width: 90%;
+    border: solid 1px black;
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+.desquestions *{
+    margin-bottom: 0;
+}
+
+.desquestions .row{
+    justify-content: space-between;
+}
+
+form{
+    height: 100%;
+}
+
+.desquestions h3{
+    font-size: 15px;
+    width: 40%;
+    margin: 0 auto 10px auto;
+}
+
+.emailetbouton{
+    height: 90%;
+    position: relative;
+}
+
+#formemail{
+    width: 91px;
+    height: 14px;
+}
+
+#formenvoyer{
+    border: solid 1px #707070;
+    border-radius: 14px;
+    color: white;
+    background: #0F749D;
+    padding: 0 15px;
+}
+
+.message{
+    height: 90%;
+    position: relative;
+}
+
+#votremessage{
+    width: 108px;
+    height: 43px;
+}
+
+/******************FOOTER******************/
+.footercontainer{
+    background: black;
+    width: 100%;
+    height: 155px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+.footerrow{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#footer ul{
+    padding-left: 0;
+}
+
+#footer li{
+    list-style: none;
+}
+
+#footer h3{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.listeliens{
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #B2B2B2;
+}
+
+.listeliens ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*********************************
+*********PAGE 2 TEXTE INTO********/
+
+.introcontainer{
+	height: 238px;
+    width: 85%;
+    font-size: 13px;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    line-height: 1.8em;
+    color:#707070;
+    margin-top: 30px;
+    border: solid 1px black;
+}
+
+/**********CARD 1 - TARTARE ********/
+
+#cardtartare {
+	width: 75%;
+    min-width: 300px;
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #CB9692; 
+    position: relative;	
+
+}
+
+#cardtartare h5 {
+	font-family: 'Baloo Bhaijaan', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 16px;
+    margin-bottom: 0px;
+
+}
+
+#cardtartare img {
+	width: 100%;
+    height: auto;
+	margin-bottom: 10px;
+}
+
+.qt {
+	font-family: 'Baloo Bhaijaan', sans-serif;
+	font-size: 15px;
+	color:#55697E;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.cardprix {
+   padding-right: 0;
+   text-align: right;
+}
+
+.cardprix p{
+    width: 120%;
+    margin-top: 1px;
+    margin-right: 1px;
+    background: white;
+    border: solid 1px #55697E;
+}
+
+.addpanier {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.addpanier a {
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 18px;
+    color: white;
+    border: solid 2px #E4E4E4;
+    border-radius: 13px;
+    padding: 7px 12px;
+    background: #0F749D;
+
 }
