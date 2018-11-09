@@ -18,7 +18,7 @@
     <!-- HEADER, FOOTER et DES QUESTIOSN A inclue en PHP ???? -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <a class="navbar-brand mx-auto" href="#">Viking
             <img src="images/logo Vikingiron.png" class="align-top" id="logoviking" alt="logo vikingiron">
         </a>
@@ -29,23 +29,40 @@
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Boutique </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Barres à la viande</a>
+                        <a class="dropdown-item" href="#">Barres végétariennes</a>
+                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Nos barres de céréales </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Barres à la viande</a>
+                        <a class="dropdown-item" href="#">Barres végétariennes</a>
+                    </div>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Notre philosophie<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Qui sommes-nous ?</a>
                 </li>
             </ul>
+        </div>
     </nav>
 
     <!-- SECTION PAS CONTENTS -->
 
-    <div class="container pascontents"  >
+    <div class="container pascontents">
         <h1 class="titre navbar-brand mx-auto"> Viking <img class="align-top" src="images/logo Vikingiron.png" alt="logo Viking"></h1>
     </div>
 
     <!-- SECTION GOUTER -->
-    <div class="container" id="divgouter">
+    <div class="container d-lg-none" id="divgouter">
         <div class="row gouterrow1">
             <div class="col-4">
                 <img src="images/lesbarres.png" alt="" id="lesbarres">
@@ -58,76 +75,83 @@
         </div>
 
         <div class="gouter">
-            <a href="" id="boutongouter" class="align-text-right">Goûter<div class="arrow-right"></div></a>
+            <a href="page2.html" id="boutongouter" class="align-text-right">Goûter<div class="arrow-right"></div></a>
 
         </div>
     </div>
 
     <!-- SECTION TEXTE BARRES VIANDE -->
 
-    <div id="texteviande" class="container">
+    <div id="texteviande" class="container d-lg-none">
         <p>Retrouvez les saveurs d'antan avec nos barres aux céréales Viking. <br>
-        Viande crue, steak, blé ou fruits rouges? <br><br>
+            Viande crue, steak, blé ou fruits rouges? <br><br>
 
-        En une bouchée, évadez-vous en Scandinavie et sentez vous comme un guerrier Viking, sans foi ni loi. <br><br>
+            En une bouchée, évadez-vous en Scandinavie et sentez vous comme un guerrier Viking, sans foi ni loi. <br><br>
 
-        Un plaisir 10% biologique et réalisé selon des procédés nordiques ancestraux. <br>
-        Avec cette barre, vous oserez défier Ragnar...</p>
+            Un plaisir 10% biologique et réalisé selon des procédés nordiques ancestraux. <br>
+            Avec cette barre, vous oserez défier Ragnar...</p>
 
+    </div>
+
+
+    <!-- SECTION PROMO BARRES VIANDE -->
+
+    <div class="container" id="promoviande">
+        <div class="row">
+            <h2 class="textepromo d-lg-none">
+                Redécouvrez la saveur de la vraie barbaque d'antan avec nos snacks à la viande !
+            </h2>
+            <h2 class="textepromo d-none d-lg-block redecouvrezdesktop">
+                Redécouvrez la saveur de la vraie barbaque d'antan avec nos snacks à la viande, élevée et préparée
+                comme au temps des épopées vikings
+            </h2>
+        </div>
+        <div class="row">
+            <img class="d-none d-lg-block" src="images/vikingmange.png" alt="magnifique portrait de viking avec barre pas vegan !!"
+                id="portraitvikingdesk">
+            <img src="images/lesbarresviande.png" alt="barres viande crue et viande cuite" id="lesbarresviande">
+        </div>
+        <div class="row lasouslitude">
+            <div class="col-7 offset-1 jedeviens">
+                <a href="page2.html" class="align-text-right jedeviensa">Je deviens fort!<div class="arrow-right-big"></div></a>
+            </div>
+            <div class="col-4 ab">
+                <img src="images/ab.png" alt="logo AB">
+            </div>
         </div>
 
+    </div>
 
-<!-- SECTION PROMO BARRES VIANDE -->
+    <!-- SECTION PROMO BARRES VEGAN -->
 
-        <div class="container" id="promoviande">
-            <div class="row">
-                <h2 class="textepromo">
-                   Redécouvrez la saveur de la vraie barbaque d'antan avec nos snacks à la viande !
-                </h2>
+    <div class="container" id="promovegan">
+        <div class="row">
+            <img src="images/lesbarresvegan.png" alt="barres viande crue et viande cuite" id="lesbarresvegan">
+        </div>
+        <div class="row">
+            <h2 class="textepromo">
+                Un petit creux? Retrouvez une énergie de guerrier viking en croquant dans nos barres saveur céréales ou
+                fruits des bois!
+            </h2>
+        </div>
+        <div class="row lasouslitude">
+            <div class="col-7 offset-1 jedeviens">
+                <a href="page2.html" class="align-text-right jedeviensa">Je deviens fort!<div class="arrow-right-big"></div></a>
             </div>
-            <div class="row">
-                <img src="images/lesbarresviande.png" alt="barres viande crue et viande cuite" id="lesbarresviande"> 
+            <div class="col-4 ab">
+                <img src="images/ab.png" alt="logo AB">
             </div>
-            <div class="row lasouslitude">
-                <div class="col-7 offset-1 jedeviens">
-                    <a href="" class="align-text-right jedeviensa">Je deviens fort!<div class="arrow-right-big"></div></a>
-                </div> 
-                <div class="col-4 ab">
-                    <img src="images/ab.png" alt="logo AB">
-                </div>   
-            </div>
-            
         </div>
 
-<!-- SECTION PROMO BARRES VEGAN -->
+    </div>
 
-        <div class="container" id="promovegan">
-            <div class="row">
-                <img src="images/lesbarresvegan.png" alt="barres viande crue et viande cuite" id="lesbarresvegan"> 
-            </div>
-            <div class="row">
-                <h2 class="textepromo">
-                  Un petit creux? Retrouvez une énergie de guerrier viking en croquant dans nos barres saveur céréales ou fruits des bois!
-                </h2>
-            </div>
-            <div class="row lasouslitude">
-                <div class="col-7 offset-1 jedeviens">
-                    <a href="" class="align-text-right jedeviensa">Je deviens fort!<div class="arrow-right-big"></div></a>
-                </div> 
-                <div class="col-4 ab">
-                    <img src="images/ab.png" alt="logo AB">
-                </div>   
-            </div>
-            
-        </div>
+    <!-- SECTION PORTRAIT -->
 
-<!-- SECTION PORTRAIT -->
-
-    <div class="container" id="portrait">
-        <div class="row"> 
+    <div class="container d-lg-none" id="portrait">
+        <div class="row">
             <img src="images/vikingmange.png" alt="magnifique portrait de viking avec barre pas vegan !!" id="portraitviking">
-            <h4  id="texteportrait">
-            D'origine scandinave et biologique, croquez dans la bestialité à pleine dent avec les barres Viking!
+            <h4 id="texteportrait">
+                D'origine scandinave et biologique, croquez dans la bestialité à pleine dent avec les barres Viking!
             </h4>
         </div>
     </div>
@@ -140,7 +164,7 @@
                 Des questions ? Contactez-nous !
             </h3>
             <div class="row oui">
-                <div class="emailetbouton col-5">
+                <div class="emailetbouton col-5 col-lg-3">
                     <label for="formemail">Votre E-mail :</label>
                     <input type="email" id="formemail">
                     <label for="formenvoyer"></label>
@@ -151,7 +175,6 @@
                     <input type="text" id="votremessage">
                 </div>
             </div>
-
         </form>
     </div>
 

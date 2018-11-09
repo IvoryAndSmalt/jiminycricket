@@ -25,8 +25,9 @@ a:hover{
 }
 
 /***********************NAVBAR********************/
+
 .navbar{
-    background: rgba(142, 190, 152, 0.7);
+    background: #add0b4;
     border: solid 1px #707070;
     height: 87px;
     padding: 0 8%;
@@ -58,12 +59,21 @@ a:hover{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(112, 112, 112, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-/****************************PAS CONTENTS****************/
+.navbar-collapse {
+    width: 100%;
+    background:#ADD0B4;
+}
+    
+    .dropdown-menu {
+    background:#ADD0B4;
+    width: 100%;
+    } 
+
+/*****************************PAS CONTENTS******************************/
 
 .pascontents {
-	height: 232px;
-	background: url("../images/vikings-pascontentsverts.jpg");
-	background-size: 100%;
+	background: url("../images/vikings-pascontentsverts.jpg") no-repeat;
+    background-size: cover;
     text-align: center;
 }
 
@@ -139,42 +149,42 @@ a:hover{
     bottom: -5%;
   }
 
-  /****************************TEXTE VIANDE****************/
+/****************************TEXTE VIANDE****************/
 
 #texteviande {
-	height: 197px;
 	padding: 5px 40px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-
-
 #texteviande p {
 	font-family: 'Comfortaa', sans-serif; 
 	font-size: 14px;
 	text-align: center;
-	line-height: 16px;
+    line-height: 16px;
+    margin-bottom: 0;
 }
 
-/****************************TEXTE PROMO VIANDE****************/
+/**************************** PROMO VIANDE****************/
+
 
 #promoviande {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	height: 362px;
-	background: rgba(142, 190, 152, 0.27);
+	min-height: 362px;
+    background: rgba(142, 190, 152, 0.27);
+    width: 100%;
 }
 
 #promoviande img {
-	margin: auto;
-
+    margin: auto;
+    max-height: 400px;
+    width: auto;
 }
 
 .textepromo {
 	font-family: 'Baloo Bhaijaan', sans-serif;
 	font-size: 18px;
-	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 	line-height: 20px;
 	color: #707070;
 	padding: 10px 70px 0px 70px;
@@ -189,15 +199,17 @@ a:hover{
 
 
 .jedeviens {
-	padding-top: 44px;
+    padding-top: 44px;
+    position: relative;
 }
 
 .lasouslitude {
-	margin-top: 20px;
+    margin-top: 20px;
+    position: relative;
 }
 
 .jedeviensa{
-position: relative;
+position: absolute;
 font-family: 'Baloo Bhaijaan', sans-serif;
 font-size: 18px;
 color: white;
@@ -205,8 +217,8 @@ border: solid 1px #707070;
 border-radius: 25% 0% 0% 25%;
 padding: 7px 12px;
 background: #0F749D;
-right: 0%;
-top:-10%;
+right:-20%;
+bottom: 50%;
 }
 
 .arrow-right-big {
@@ -220,14 +232,46 @@ right: -13.1%;
 bottom: -5%;
 }
 
+.ab{
+    position: absolute;
+    left: 30%;
+    bottom: 50%;
+}
 
+@media (min-width: 992px) {
+    #portraitvikingdesk{
+        height: 500px;
+        margin-bottom: 200px;
+    }
+    
+    .ab img{
+       height: 120px;
+    }
+    
+    .redecouvrezdesktop{
+        color: black;
+        width: 100%;
+        text-align: left;
+        margin-left: 30%;
+        font-size: 1.8em;
+        line-height: 1.6em;
+    }
+}
 
-/****************************TEXTE PROMO vegan****************/
+/****************************PROMO vegan****************/
 
 #promovegan {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	height: 382px;
+	min-height: 382px;
+}
+
+#promovegan .ab{
+    bottom: 20%;
+}
+
+#promovegan .lasouslitude{
+    padding-top: 120px;
 }
 
 #lesbarresvegan {
@@ -238,6 +282,8 @@ bottom: -5%;
 
 #promovegan img {
 	margin: auto;
+    max-height: 400px;
+    width: auto;
 }
 
 /**************************** PORTRAIT ****************/
@@ -266,7 +312,6 @@ bottom: -5%;
 /****************FORMULAIRE DE CONTACT*************/
 .desquestions{
     position: relative;
-    height: 126px;
     background: #1497CC;
     width: 90%;
     border: solid 1px black;
@@ -290,7 +335,7 @@ form{
 .desquestions h3{
     font-size: 15px;
     width: 40%;
-    margin: 0 auto 10px auto;
+    margin: 15px auto 10px auto;
 }
 
 .emailetbouton{
@@ -309,6 +354,7 @@ form{
     color: white;
     background: #0F749D;
     padding: 0 15px;
+    margin-bottom: 10px;
 }
 
 .message{
@@ -325,7 +371,6 @@ form{
 .footercontainer{
     background: black;
     width: 100%;
-    height: 155px;
     color: white;
     font-size: 10px;
     font-family: 'Baloo Bhaijaan', sans-serif;
@@ -363,7 +408,7 @@ form{
     justify-content: space-around;
 }
 
-/******************PAGE 2 TEXTE INTO*************/
+/******************PAGE 2 TEXTE INTrO*************/
 .introcontainer{
     width: 85%;
     font-size: 13px;
@@ -371,7 +416,6 @@ form{
     line-height: 1.8em;
     color:#707070;
     margin-top: 30px;
-    border: solid 1px black;
 }
 
 /******************FLEUR DES CHAMPS*************/
@@ -381,9 +425,10 @@ form{
     -webkit-text-stroke-color: black;
     font-family: 'Baloo Bhaijaan', sans-serif;
     font-size: 20px;
+    text-align: left;
     width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /******************PANIER*************/
@@ -465,6 +510,10 @@ form{
     background:#0F749D;
 }
 
+.ladivdupadding{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
 #osez{
     font-family: 'Comfortaa', sans-serif;
     color: #D73351;
@@ -489,4 +538,96 @@ form{
 .imagepaiement{
     width: 60%;
     height: auto;
+}
+
+/**********CARD 1 - TARTARE ********/
+
+.cardtartare {
+	width: 75%;
+    min-width: 300px;
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #CB9692; 
+    position: relative;	
+
+}
+
+.cardtartare h5 {
+	font-family: 'Baloo Bhaijaan', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 16px;
+    margin-bottom: 0px;
+
+}
+
+.cardtartare img {
+	width: 100%;
+    height: auto;
+	margin-bottom: 10px;
+}
+
+.qt {
+	font-family: 'Baloo Bhaijaan', sans-serif;
+	font-size: 15px;
+	color:#55697E;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.cardprix {
+   padding-right: 0;
+   text-align: right;
+}
+
+.cardprix p{
+    width: 120%;
+    margin-top: 1px;
+    margin-right: 1px;
+    padding-right: 3px;
+    background: white;
+    border: solid 1px #55697E;
+}
+
+.addpanier {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.addpanier a {
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    font-size: 18px;
+    color: white;
+    border: solid 2px #E4E4E4;
+    border-radius: 13px;
+    padding: 7px 12px;
+    background: #0F749D;
+
+}
+
+/***************GOUT STEAK*******************/
+.steak{
+    background: #8EBE98;
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 100%;
+        width: 100%;
+    }
+    #promovegan .textepromo{
+        color: black;
+    }
+}
+
+@media (max-width: 768px){
+    .ab{
+        left: 5%;
+    }
 }
